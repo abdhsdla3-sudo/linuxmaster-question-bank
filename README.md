@@ -43,7 +43,6 @@ npm.cmd run dev
 
 ```text
 https://abdhsdla3-sudo.github.io/linuxmaster-question-bank/
-https://linuxpractice.netlify.app/
 ```
 
 ## 배포 방법 1: Vercel
@@ -59,16 +58,7 @@ https://linuxpractice.netlify.app/
 
 배포가 끝나면 Vercel이 제공하는 URL로 휴대폰, 태블릿, 다른 PC에서 접속할 수 있습니다.
 
-## 배포 방법 2: Netlify
-
-1. [Netlify](https://www.netlify.com/)에 로그인합니다.
-2. `Add new site`를 선택합니다.
-3. GitHub 저장소를 연결합니다.
-4. Build command에 `npm run build`를 입력합니다.
-5. Publish directory에 `dist`를 입력합니다.
-6. Deploy를 누릅니다.
-
-## 배포 방법 3: GitHub Pages
+## 배포 방법 2: GitHub Pages
 
 이 프로젝트는 GitHub Pages 배포용 설정이 포함되어 있습니다.
 
