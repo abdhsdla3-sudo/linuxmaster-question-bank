@@ -35,7 +35,14 @@ npm.cmd install
 npm.cmd run dev
 ```
 
-브라우저에서 보통 `http://localhost:5173`으로 접속하면 됩니다.
+개발 서버가 실행 중인 내 PC에서는 브라우저에서 `http://localhost:5173`으로 접속해 확인할 수 있습니다. 이 주소는 내 PC 전용 개발 주소라서 PowerShell을 닫거나 PC를 끄면 접속되지 않고, 다른 사람에게 공유할 주소로는 사용할 수 없습니다.
+
+다른 사람에게 공유할 때는 배포된 주소를 사용하세요.
+
+```text
+https://abdhsdla3-sudo.github.io/linuxmaster-question-bank/
+https://linuxpractice.netlify.app/
+```
 
 ## 배포 방법 1: Vercel
 
