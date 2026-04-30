@@ -59,6 +59,27 @@ npm.cmd run dev
 5. Publish directory에 `dist`를 입력합니다.
 6. Deploy를 누릅니다.
 
+## 배포 방법 3: GitHub Pages
+
+이 프로젝트는 GitHub Pages 배포용 설정이 포함되어 있습니다.
+
+1. GitHub 저장소의 `Settings`로 이동합니다.
+2. 왼쪽 메뉴에서 `Pages`를 선택합니다.
+3. `Build and deployment`의 `Source`를 `GitHub Actions`로 설정합니다.
+4. 로컬에서 변경 내용을 push합니다.
+
+```bash
+git add .
+git commit -m "Configure GitHub Pages"
+git push
+```
+
+배포가 끝나면 아래 주소에서 접속할 수 있습니다.
+
+```text
+https://abdhsdla3-sudo.github.io/linuxmaster-question-bank/
+```
+
 ## 빌드 확인
 
 ```bash
