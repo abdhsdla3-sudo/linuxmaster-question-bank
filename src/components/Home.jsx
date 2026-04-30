@@ -24,7 +24,7 @@ export default function Home({
           </h1>
           <p className="mt-4 max-w-2xl text-base leading-7 text-slate-600 dark:text-slate-300">
             1000문항 문제은행에서 랜덤 50문항을 풀고, 점수와 해설을 확인하세요.
-            제공한 강의자료 기반 개념 정리와 오답 설명을 함께 볼 수 있습니다.
+            1차 학습 범위 기반 개념 정리와 오답 설명을 함께 볼 수 있습니다.
           </p>
           <div className="mx-auto mt-6 grid max-w-3xl justify-center gap-3 sm:grid-cols-2 lg:grid-cols-3">
             <button type="button" onClick={onStartExam} className="primary-button">

@@ -1,7 +1,7 @@
 export const lectureConcepts = [
   {
     title: "리눅스 개요",
-    source: "#1 리눅스 개요.pdf",
+    source: "리눅스 개요 학습 범위",
     summary: [
       "리눅스는 Linus Torvalds가 1991년에 커널을 작성하고 공개하면서 시작되었다.",
       "GNU 프로젝트와 리눅스 커널이 결합되며 완성된 운영체제 형태의 배포판이 만들어졌다.",
@@ -12,7 +12,7 @@ export const lectureConcepts = [
   },
   {
     title: "배포판과 패키지",
-    source: "#1 리눅스 개요.pdf, #2 리눅스 기본 명령어.pdf",
+    source: "배포판과 기본 명령어 학습 범위",
     summary: [
       "Debian 계열에는 Debian, Ubuntu, Linux Mint 등이 있으며 apt와 dpkg를 주로 사용한다.",
       "Red Hat 계열에는 Fedora, CentOS, RHEL 계열 배포판이 있으며 rpm, yum, dnf와 관련이 깊다.",
@@ -22,7 +22,7 @@ export const lectureConcepts = [
   },
   {
     title: "기본 명령어",
-    source: "#2 리눅스 기본 명령어.pdf",
+    source: "기본 명령어 학습 범위",
     summary: [
       "pwd는 현재 작업 디렉터리, cd는 디렉터리 이동, ls는 목록 출력에 사용한다.",
       "cat은 파일 내용을 출력하고, less는 긴 파일을 페이지 단위로 탐색할 때 사용한다.",
@@ -33,7 +33,7 @@ export const lectureConcepts = [
   },
   {
     title: "파일 관리와 권한",
-    source: "#3 파일 관리.pdf",
+    source: "파일 관리 학습 범위",
     summary: [
       "리눅스 파일 시스템은 /를 최상위로 하는 계층적 구조이다.",
       "/etc는 설정 파일, /home은 일반 사용자 홈, /var는 로그와 가변 데이터, /dev는 장치 파일, /proc은 커널/프로세스 가상 정보를 담는다.",
@@ -44,7 +44,7 @@ export const lectureConcepts = [
   },
   {
     title: "쉘, 프로세스, 사용자",
-    source: "#4 쉘, 프로세스, 사용자, 유틸리티 명령어.pdf",
+    source: "셸, 프로세스, 사용자 관리 학습 범위",
     summary: [
       "셸은 명령어 해석기이며 bash는 리눅스에서 널리 사용되는 셸이다.",
       "ps는 프로세스 목록, top은 실시간 자원 사용량, kill은 프로세스에 시그널을 보내는 명령이다.",
@@ -55,7 +55,7 @@ export const lectureConcepts = [
   },
   {
     title: "디스크 관리",
-    source: "#5 디스크 관리.pdf",
+    source: "디스크 관리 학습 범위",
     summary: [
       "mount는 파일 시스템을 디렉터리 트리에 연결하고 umount는 마운트를 해제한다.",
       "/etc/fstab은 부팅 시 자동 마운트할 파일 시스템 정보를 저장한다.",

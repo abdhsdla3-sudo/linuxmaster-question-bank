@@ -27,10 +27,10 @@ export default function ConceptSummary({ onHome }) {
       <section className="panel p-6">
         <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
           <div>
-            <p className="text-sm font-semibold text-blue-700 dark:text-blue-300">강의자료 기반</p>
+            <p className="text-sm font-semibold text-blue-700 dark:text-blue-300">1차 학습 범위 기반</p>
             <h1 className="mt-1 text-2xl font-bold text-slate-950 dark:text-slate-50">카테고리별 개념 정리</h1>
             <p className="mt-2 text-sm leading-6 text-slate-600 dark:text-slate-300">
-              사용자가 제공한 리눅스 강의 PDF와 1차 시험 범위를 기준으로 자주 나오는 개념을 넓게 정리했습니다.
+              리눅스마스터 2급 1차 학습 범위를 기준으로 자주 나오는 개념을 넓게 정리했습니다.
             </p>
           </div>
           <button type="button" onClick={onHome} className="secondary-button">
